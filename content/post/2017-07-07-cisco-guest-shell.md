@@ -13,7 +13,7 @@ CSR01(config)#iox
 CSR01(config)#do guestshell
 [guestshell@guestshell ~]$
 ```
-####Dohost command
+#### Dohost command
 `dohost` permits you to run IOS commands from your shell terminal.
 
 ```

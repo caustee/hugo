@@ -18,7 +18,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Costin's place
   description: "Yet another IT guy with a blog on the internet"
-  keywords: [Blog, Portfolio, PaperMod]
+  keywords: [Blog, Costin Stefan, DevOps, networking, Cisco]
   author: costin 
   images: ["<link or path of image for opengraph, twitter-cards>"] ## FIX
   DateFormat: "January 2, 2006"
@@ -44,18 +44,18 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>" ### FIX
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/favicon.ico"
+    favicon16x16: "/icons/favicon-16x16.png"
+    favicon32x32: "/icons/favicon-32x32.png"
+    apple_touch_icon: "/icons/apple-touch-icon.png"
+    safari_pinned_tab: "/icons/apple-touch-icon.png"
 
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
     title: Costin's place
     subtitle: "Yet another IT guy with a blog on the internet"
-    imageUrl: "<img location>" ## FIX
+    imageUrl: "/images/"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -90,7 +90,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/hugo/content"
+    URL: "https://github.com/caustee/hugo/blob/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -112,10 +112,6 @@ menu:
       name: Say Hello
       url: /contact/
       weight: 20
-    - identifier: Linkedin
-      name: LinkedIn
-      url: https://linkedin.com/in/costinstefan
-      weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
