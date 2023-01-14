@@ -1,6 +1,6 @@
 ---
-date: "2023-01-14T09:45:00Z"
-title: New year, new changes
+date: "2023-01-14T00:00:00Z"
+title: "New year, new changes"
 ---
 
 After a period on which I focused more on work, I've decided I need to change a bit the blog. 9 months ago I've migrated my blog from DigitalOcean to Github Pages. DigitalOcean was great for me when I started my first droplet, but I wanted to experiment with other technologies. So I've migrated my blog to Github Pages and my email to Apple Mail.
