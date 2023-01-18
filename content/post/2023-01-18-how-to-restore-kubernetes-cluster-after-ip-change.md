@@ -3,7 +3,6 @@ date: "2023-01-18T00:00:00Z"
 title: How to restore a Kubernetes cluster after IP change
 ---
 
-# How to restore a Kubernetes cluster after IP change
 
 Recently I had to fix a kubernetes cluster which had its IP addresses changed. The team that changed the IP address on the machines also replaced the hostname in `/etc/hosts`.
 However, this is not enough. In order to restore the cluster, you also have to change the IP address in kubernetes cluster manifest files.
