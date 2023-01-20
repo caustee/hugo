@@ -81,9 +81,8 @@ jobs:
           disable_web_page_preview: true
           disable_notification: true
           message: |
-            ${{ github.actor }} created commit:
             Commit message: ${{ github.event.commits[0].message }}
             
             Repository: ${{ github.repository }}
             
-            See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
+            Check website: https://costinstefan.ro
