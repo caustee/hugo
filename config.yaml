@@ -10,7 +10,7 @@ buildFuture: false
 buildExpired: false
 googleAnalytics: UA-5736067-3
 copyright: "This website belongs to me. I may not be always right, but I have opinions and Internet access and I'm not afraid to use them!"
-
+ShowFullTextinRSS: true
 minify:
   disableXML: true
   minifyOutput: true
