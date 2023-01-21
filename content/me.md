@@ -3,9 +3,8 @@ title: "About me"
 date: 2023-01-12
 # weight: 1
 aliases: ["/me"]
-tags: ["first"]
 author: "costin"
-showToc: true
+showToc: false
 TocOpen: false
 draft: false
 hidemeta: false
@@ -22,7 +21,6 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
-UseHugoToc: true
 cover:
     image: "https://media.licdn.com/dms/image/C4E03AQEj5wW03fV3RQ/profile-displayphoto-shrink_800_800/0/1595945030878?e=1678924800&v=beta&t=74Z3eJPXjTnLas61Y2VD4ew9tP9B7xlCizjGXXMRoLs" # image path/url
     alt: "<alt text>" # alt text
