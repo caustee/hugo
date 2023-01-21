@@ -1,5 +1,6 @@
 ---
 showReadingTime: false
+ShowShareButtons: false
 showTOC: false
 aliases: ["/contact"]
 title: Contact
