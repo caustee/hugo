@@ -1,5 +1,5 @@
 ---
-date: "2023-09-28T22:55:00Z"
+date: "2023-09-28T00:00:00Z"
 title: How to move artefacts in a Jfrog repository
 ---
 
