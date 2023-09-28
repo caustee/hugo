@@ -8,7 +8,7 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-googleAnalytics: G-LSWRL8FMXN 
+googleAnalytics: 354181620 
 copyright: "This website belongs to me. I may not be always right, but I have opinions and Internet access and I'm not afraid to use them!"
 ShowFullTextinRSS: true
 minify:
@@ -25,9 +25,9 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Costin's place
   description: "Yet another IT guy with a blog on the internet"
-  keywords: [Blog, Costin Stefan, DevOps, networking, Cisco]
+  keywords: [Blog, Costin Stefan, DevOps, networking, platform engineer, VMware, Cisco]
   author: costin 
-  images: ["<link or path of image for opengraph, twitter-cards>"] ## FIX
+  images: ["https://i.kym-cdn.com/entries/icons/original/000/028/021/work.jpg"] 
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -86,7 +86,7 @@ params:
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "354181620"
     bing:
       SiteVerificationTag: "XYZabc"
 
