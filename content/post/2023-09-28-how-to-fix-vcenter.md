@@ -216,5 +216,5 @@ root@VCENTER [ ~ ]#
 
 And here it was. All services started automatically, I just had to be patient and wait :)
 
-The web interface was back now. Anyway, thanks a bunch unnamed article owner for this script.
+The web interface was back now. Anyway, thanks a bunch unnamed article author for this script.
 
