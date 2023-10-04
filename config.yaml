@@ -74,21 +74,15 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Costin Stefan"
-    Content: Welcome to my blog. You will find here random stuff, mostly IT infra-related.
+    Content: Welcome to my blog. You will find here random useful stuff, mostly IT infra-related.
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/costin_cz"
     - name: linkedin
       url: "https://linkedin.com/in/costinstefan"
-    - name: github
-      url: "https://github.com/caustee/"
 
   analytics:
     google:
       SiteVerificationTag: "354181620"
-    bing:
-      SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: true # hide everywhere but not in structured data

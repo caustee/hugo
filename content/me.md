@@ -16,13 +16,13 @@ disableShare: false
 disableHLJS: false
 hideSummary: false
 searchHidden: true
-ShowReadingTime: true
+ShowReadingTime: false 
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
-ShowWordCount: true
-ShowRssButtonInSectionTermList: true
+ShowWordCount: false
+ShowRssButtonInSectionTermList: false
 cover:
-    image: "https://media.licdn.com/dms/image/C4E03AQEj5wW03fV3RQ/profile-displayphoto-shrink_800_800/0/1595945030878?e=1678924800&v=beta&t=74Z3eJPXjTnLas61Y2VD4ew9tP9B7xlCizjGXXMRoLs" # image path/url
+    image: "/static/me.jpg" # image path/url
     alt: "Costin Stefan young and restless" # alt text
     caption: "Here's me face" # display caption under cover
     relative: false # when using page bundles set this to true
