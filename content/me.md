@@ -22,7 +22,7 @@ ShowPostNavLinks: true
 ShowWordCount: false
 ShowRssButtonInSectionTermList: false
 cover:
-    image: "/static/images/me.jpg" # image path/url
+    image: "/images/me.jpg" # image path/url
     alt: "Costin Stefan young and restless" # alt text
     caption: "Here's me face" # display caption under cover
     relative: false # when using page bundles set this to true

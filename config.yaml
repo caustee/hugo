@@ -1,5 +1,6 @@
 baseURL: https://costinstefan.ro
 disablePathToLower: true
+enableEmoji: true
 languageCode: en-us
 title: Costin's place
 theme: "PaperMod"
