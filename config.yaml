@@ -92,7 +92,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/caustee/hugo/blob/main/content"
+    URL: "https://github.com/caustee/hugo/tree/main/content/"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -110,6 +110,10 @@ menu:
       name: About me
       url: /me/
       weight: 10
+    - identifier: cv
+      name: CV
+      url: /cv/
+      weight: 15
     - identifier: hello
       name: Say Hello
       url: /contact/
@@ -118,6 +122,10 @@ menu:
       name: Archives
       url: /archives/
       weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 35
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
