@@ -1,5 +1,6 @@
 baseURL: https://costinstefan.ro
 disablePathToLower: true
+enableEmoji: true
 languageCode: en-us
 title: Costin Stefan
 theme: "PaperMod"
@@ -10,6 +11,7 @@ buildFuture: false
 buildExpired: false
 googleAnalytics: G-LSWRL8FMXN 
 copyright: "The opinions expressed here are entirely mine. You can copy freely everything you see here, but I shall not be held liable in case of any damages in production systems."
+googleAnalytics: 354181620 
 ShowFullTextinRSS: true
 minify:
   disableXML: true
@@ -77,26 +79,23 @@ params:
     Content: Welcome to my blog. You will find useful random stuff, mostly IT infra-related.
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/costin_cz"
     - name: linkedin
       url: "https://linkedin.com/in/costinstefan"
-    - name: github
-      url: "https://github.com/caustee/"
 
   analytics:
     google:
       SiteVerificationTag: ""
     bing:
-      SiteVerificationTag: ""
+      SiteVerificationTag: "354181620"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
+    responsiveImages: false
+    hidden: false # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/caustee/hugo/blob/main/content"
+    URL: "https://github.com/caustee/hugo/tree/main/content/"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -122,6 +121,10 @@ menu:
       name: Archives
       url: /archives/
       weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 35
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
