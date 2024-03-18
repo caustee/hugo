@@ -21,15 +21,14 @@ ShowPostNavLinks: true
 ShowWordCount: false
 ShowRssButtonInSectionTermList: false
 cover:
-    image: "https://costinstefan.ro/images/me.jpg" # image path/url
-    alt: "Costin Stefan young and restless" # alt text
-    caption: "Here's me face" # display caption under cover
+#    image: "https://costinstefan.ro/images/me.jpg" # image path/url
+    alt: "a picture of Costin Stefan with glasses" # alt text
     relative: false # when using page bundles set this to true
     hidden: false # only hide on current single page
-editPost:
-    URL: "https://github.com/hugo/content"
+#editPost:
+#    URL: "https://github.com/hugo/content"
 #    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+#    appendFilePath: true # to append file path to Edit link
 ---
 
 My name is Costin Ștefan and this is my blog.
