@@ -12,9 +12,9 @@ comments: false
 description: "This page contain some info about Costin Stefan"
 canonicalURL: "https://costinstefan.ro/about"
 disableHLJS: true # to disable highlightjs
-disableShare: false
+disableShare: true
 disableHLJS: false
-hideSummary: false
+hideSummary: true
 searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
@@ -22,14 +22,31 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 cover:
-    image: "https://media.licdn.com/dms/image/C4E03AQEj5wW03fV3RQ/profile-displayphoto-shrink_800_800/0/1595945030878?e=1678924800&v=beta&t=74Z3eJPXjTnLas61Y2VD4ew9tP9B7xlCizjGXXMRoLs" # image path/url
+    image: "https://costinstefan.ro/images/me.jpg" # image path/url
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+    hidden: false # only hide on current single page
 editPost:
     URL: "https://github.com/hugo/content"
-    Text: "Suggest Changes" # edit text
+#    Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-I used to be a network engineer that likes to play with various technologies.
+
+My name is Costin Ștefan and this is my blog.
+
+I'm a Technical consultant with a broad knowledge of network architecture, virtualization, on-prem physical data centers. I've been a Technical Lead in many projects in the DevOps area. 
+
+Passionate and curious individual with an affinity for exploring new technologies to drive innovative solutions and enhance efficiency.
+
+I have experience with large deployments of complex solutions mostly using Ansible automated deployments.
+
+Seasoned professional with a diverse background spanning networking, security, application delivery, virtualization, on-premises data centers, DevOps, demonstrating adaptability and expertise across multiple fields throughout a distinguished career.
+
+My current focus is cutting-edge cloud-native technologies like eBPF on Kubernetes, and using DevOps practices to combine my 2 main technical worlds: Networking and Cloud Native.
+
+This blog is fully automated, it is based on Hugo and hosted on Github Pages.
+
+For consulting services drop me a [message](https://costinstefan.ro/contact/) or a friend invite on [Linkedin](https://www.linkedin.com/in/costinstefan/).
+
+

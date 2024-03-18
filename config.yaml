@@ -1,7 +1,7 @@
 baseURL: https://costinstefan.ro
 disablePathToLower: true
 languageCode: en-us
-title: Costin's place
+title: Costin Stefan
 theme: "PaperMod"
 paginate: 5
 enableRobotsTXT: true
@@ -9,7 +9,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 googleAnalytics: G-LSWRL8FMXN 
-copyright: "This website belongs to me. I may not be always right, but I have opinions and Internet access and I'm not afraid to use them!"
+copyright: "The opinions expressed here are entirely mine. You can copy freely everything you see here, but I shall not be held liable in case of any damages in production systems."
 ShowFullTextinRSS: true
 minify:
   disableXML: true
@@ -23,11 +23,11 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Costin's place
-  description: "Yet another IT guy with a blog on the internet"
-  keywords: [Blog, Costin Stefan, DevOps, networking, Cisco]
+  title: Costin Stefan
+  description: "Costin Stefan is a Technical Consultant with a vast experience in Networking, Security, Virtualization, Kubernetes and DevOps"
+  keywords: [Blog, Costin Stefan, DevOps, networking, Cisco, Kubernetes, Cilium, Ansible, Prometheus, Grafana, ]
   author: costin 
-  images: ["<link or path of image for opengraph, twitter-cards>"] ## FIX
+  images: ["https://costinstefan.ro/images/me.jpg"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -59,9 +59,9 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: Costin's place
-    subtitle: "Yet another IT guy with a blog on the internet"
-    imageUrl: "/images/"
+    title: Costin Stefan
+    subtitle: "Technical Consultant"
+    imageUrl: "https://costinstefan.ro/images/me.jpg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: 
@@ -74,7 +74,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Costin Stefan"
-    Content: Welcome to my blog. You will find here random stuff, mostly IT infra-related.
+    Content: Welcome to my blog. You will find useful random stuff, mostly IT infra-related.
 
   socialIcons:
     - name: twitter
@@ -86,9 +86,9 @@ params:
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: ""
     bing:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: ""
 
   cover:
     hidden: true # hide everywhere but not in structured data
