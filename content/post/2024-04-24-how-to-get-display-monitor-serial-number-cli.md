@@ -1,5 +1,5 @@
 ---
-date: "2023-09-28T00:00:00Z"
+date: "2024-04-24T00:00:00Z"
 title: How to get display monitor serial number from PowerShell
 ---
 
