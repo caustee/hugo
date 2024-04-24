@@ -79,7 +79,7 @@ Successfully installed psycopg2-binary-2.8.6
 
 Then all you have to do is to start the test script:
 ```python
-[msasadmin@uahpxch1tas10 ~]$ python3 db-test.py
+[user@hostname ~]$ python3 db-test.py
 ...
 Current checks: 2356
 Current TPS: 4067.3281247042887
