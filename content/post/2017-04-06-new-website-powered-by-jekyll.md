@@ -56,3 +56,5 @@ You can also customize it by going under the hood, down in the CSS area. But unf
 Go ahead and try it! But first measure the resources used by your current setup to see if it makes a different to you.
 
 Edit: I've removed the YouTube iframe because it added 500KB to the webpage unnecessarily, now this page has less than 700KB. I got inspired by [this article](http://idlewords.com/talks/website_obesity.htm) and I'm trying to help.
+
+2024 Edit: After switching to Hugo and Github Pages the total size is 158KB and load 228ms. [Not too bad](https://www.youtube.com/watch?v=UKpMhn07cxA).
