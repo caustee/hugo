@@ -58,8 +58,8 @@ if __name__ == '__main__':
 
 ```
 
-In heere you should update the database, user, password, host and port to something relevant to your environment.
-Everything else can stay the same
+In here you should update the database, user, password, host and port to something relevant to your environment.
+Everything else can stay the same.
 
 But in order to run it, you will need to have python installed, pip3 package manager and psycopg2_binary python library.
 

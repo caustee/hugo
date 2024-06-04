@@ -39,8 +39,6 @@ Passionate and curious individual with an affinity for exploring new technologie
 
 I have experience with large deployments of complex solutions mostly using Ansible automated deployments.
 
-Seasoned professional with a diverse background spanning networking, security, application delivery, virtualization, on-premises data centers, DevOps, demonstrating adaptability and expertise across multiple fields throughout a distinguished career.
-
 My current focus is cutting-edge cloud-native technologies like eBPF on Kubernetes, and using DevOps practices to combine my 2 main technical worlds: Networking and Cloud Native.
 
 This blog is fully automated, it is based on Hugo and hosted on Github Pages.
