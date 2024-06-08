@@ -93,7 +93,7 @@ community.general:9.0.1 was installed successfully
 
 This collection comes with some requirements on the proxmox server: `proxmoxer` and `requests` which were installed manually on proxmox server using pip.
 
-Created a playbook to deploy a container on Proxmox host:
+Created a playbook to deploy and start a container on Proxmox host:
 
 ```
 (ansible) costin@hp:~/ansible/proxmox$ cat play-container.yml
@@ -111,6 +111,15 @@ Created a playbook to deploy a container on Proxmox host:
       hostname: CT200 #HOSTNAME
       ostemplate: 'local:vztmpl/debian-12-standard_12.2-1_amd64.tar.zst' #CONTAINER_TEMPLATE
       storage: local-lvm #STORAGE
+      netif: '{"net0":"name=eth0,ip=dhcp,bridge=vmbr0"}'
+      state: present
+
+  - name: Start newly created container
+    community.general.proxmox:
+      vmid: 200
+      api_user: root@pam
+      api_password: fcDinamo123
+      api_host: pmox
       state: started
 ```
 
@@ -125,8 +134,12 @@ ok: [pmox]
 TASK [Create new container with minimal options] **************************************************************************
 changed: [pmox]
 
+TASK [Start newly created container] **************************************************************************************
+changed: [pmox]
+
 PLAY RECAP ****************************************************************************************************************
-pmox                       : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
+pmox                       : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
+
 ```
 
 Then you should be able to see the newly created CT on proxmox server:
