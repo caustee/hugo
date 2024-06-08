@@ -117,9 +117,9 @@ Created a playbook to deploy and start a container on Proxmox host:
   - name: Start newly created container
     community.general.proxmox:
       vmid: 200
-      api_user: root@pam
-      api_password: fcDinamo123
-      api_host: pmox
+      api_user: root@pam #PROXMOX_ACCOUNT
+      api_password: <PROXMOX_ACCOUNT_PASSWORD>
+      api_host: pmox  #PROXMOX_HOST
       state: started
 ```
 
