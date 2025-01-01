@@ -37,7 +37,7 @@ The same options could be used if you want to be notified when the service is av
 
 * Windows:
 ```
-while ($true) {if (TNC -ComputerName $IP -Port $PORT {[console]::beep(1000,500)}}
+while ($true) {if (TNC -ComputerName $IP -Port $PORT) {[console]::beep(1000,500)}}
 ```
 * Linux/Mac:
 ```
