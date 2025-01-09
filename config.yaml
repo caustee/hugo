@@ -12,7 +12,7 @@ buildExpired: false
 services:
   googleAnalytics:
     ID: G-LSWRL8FMXN 
-copyright: "The opinions expressed here are entirely mine. You can copy freely everything you see here, but I shall not be held liable in case of any damages in production systems."
+copyright: "The opinions expressed here are entirely mine. You can copy freely everything you see here, but I shall not be held liable in case of any damages to production systems."
 googleAnalytics: 354181620 
 ShowFullTextinRSS: true
 minify:
