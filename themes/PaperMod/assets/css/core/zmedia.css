@@ -11,7 +11,7 @@
 
     /* post-entry */
     .first-entry {
-        min-height: 10px;
+        min-height: 260px;
     }
 
     /* archive */
@@ -33,6 +33,12 @@
 @media screen and (max-width: 900px) {
     .list .top-link {
         transform: translateY(-5rem);
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .share-buttons {
+        justify-content: unset;
     }
 }
 

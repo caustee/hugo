@@ -29,7 +29,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Costin Stefan
   description: "Costin Stefan is a Technical Consultant with a vast experience in Networking, Security, Virtualization, Kubernetes and DevOps"
-  keywords: [Blog, Costin Stefan, DevOps, networking, Cisco, Kubernetes, Cilium, Ansible, Prometheus, Grafana, ]
+  keywords: [Blog, Costin Stefan, DevOps, networking, Cisco, Kubernetes, Cilium, Ansible, Prometheus, Grafana, deployment pipelines, CICD, Openshift, vmware, vsphere, vcenter, costin, stefan, security, servers]
   author: costin 
   images: ["https://costinstefan.ro/images/me.jpg"]
   DateFormat: "January 2, 2006"
