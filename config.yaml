@@ -81,8 +81,9 @@ params:
     Content: Welcome to my blog. You will find useful random stuff, mostly IT infra-related.
 
   socialIcons:
-    - name: linkedin
-      url: "https://linkedin.com/in/costinstefan"
+# OFF ON 14012025
+#    - name: linkedin
+#      url: "https://linkedin.com/in/costinstefan"
 
   analytics:
     google:
