@@ -298,7 +298,7 @@ Allocated resources:
   hugepages-2Mi      0 (0%)         0 (0%)
 ```
 
-Now we can see clearly that the requests percentage used is at least 84% of the 48Gi (total available memory for worker nodes), which is less than 20Gi requested by the pod. Sure, we also have one master node that has enough memory to accomodate this, but because of the taint it is not allowed to be scheduled onca p it. And we'd like to keep it that way.
+Now we can see clearly that the requests percentage used is at least 84% of the 48Gi (total available memory for worker nodes), which is less than 20Gi requested by the pod. Sure, we also have one master node that has enough memory to accomodate this, but because of the taint it is not allowed to be scheduled on it. And we'd like to keep it that way.
 
 There are 2 fixes here. The best one is to increase the physical memory available on the cluster. Either by adding another worker or increasing the available memory on the current ones. 
 And the short-term workaround, which is to enable overcommitment on the cluster. This, of course, should not be done in Production environment in order to avoid OOM issues.
