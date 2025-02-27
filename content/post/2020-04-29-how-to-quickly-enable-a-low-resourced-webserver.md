@@ -29,3 +29,11 @@ Not to mention that this is possible even from low-priviledge user accounts.
 
 For more details about this module please see [the official documentation](https://docs.python.org/3/library/http.server.html).
 
+2025 EDIT:
+Here I'm adding the commands for doing the same in PowerShell. What I did here was to use ALL interfaces (through + sign).
+```
+$port = 8080
+$listener = New-Object System.Net.HttpListener
+$listener.Prefixes.Add("http://+:$port/")
+$listener.Start()
+```
