@@ -57,7 +57,8 @@ As of OpenShift Container Platform 4.14, OpenShift Container Platform uses Linux
 ```
 
 Exactly my version. My deployment started with v2 while the old ones had v1 as default and were not upgraded automatically.
-So this explains the WHY, now all I had to do was find out HOW.
+
+So this explains the **WHY**, now all I had to do was find out **HOW**.
 
 And this was as simple as: `oc edit node.config/cluster`
 
