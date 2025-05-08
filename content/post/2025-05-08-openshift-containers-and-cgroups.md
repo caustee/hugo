@@ -5,6 +5,7 @@ title: "RedHat Openshift, container IDs and cgroups"
 ---
 
 So I had a really interesting issue recently where one of our app devs was complaining that he can't get the container ID from within the container in a new environment.
+
 For context, there's a setup with 3 identical environments on the customer side and a local lab that was recently replaced. I've deployed a new Openshift cluster (version 4.14. will become important later) to replace another lab environment in a different location.
 
 Now, the app admin complained that in all the other envs he was able to run a script to find out the container ID:
@@ -12,7 +13,7 @@ Now, the app admin complained that in all the other envs he was able to run a sc
 "$(cat /proc/1/cpuset)" | sed -e 's/^.*-//' | cut -c1-12)
 ```
 
-normally this would have returned something like this:
+Normally this would have returned something like this:
 ```
 sh-4.4$ cat /proc/1/cpuset
 /kubepods.slice/kubepods-podd5fb9541_11a3_403a_8dfc_ce3cfdf06023.slice/crio-66d462830ca23be608eb8c8f377485f09126df694f00803396d0c44f03c4bdea.scope
@@ -32,15 +33,21 @@ Now, in this new setup the result was different:
 ```
 
 After losing many hours trying to understand why cpuset shows a different value using various online sources (blog posts, LLMs) I had to get back to the old fashion way.
+
 It was time to understand what's up with this cpuset, and this started with learning about cgroup and namespaces.
-A great resource on this is [this video ](https://www.youtube.com/watch?v=x1npPrzyKfs) from Samuel Karp. Armed with this I checked [this amazing presentation](https://www.youtube.com/watch?v=sK5i-N34im8) from Jerome Petazzoni.
+
+A great resource on this is [this video ](https://www.youtube.com/watch?v=x1npPrzyKfs) from Samuel Karp.
+
+Armed with this I checked [this amazing presentation](https://www.youtube.com/watch?v=sK5i-N34im8) from Jerome Petazzoni.
+
+
 Then I checked the official kernel documentation for cgroup:
 [cgroup v1](https://www.kernel.org/doc/html/latest/admin-guide/cgroup-v1/cgroups.html)
 [cgroup v2](https://www.kernel.org/doc/html/latest/admin-guide/cgroup-v2.html)
 
 After this I was able to understand that my issue comes from using different cgroup versions. The working ones were using cgroup v1 and the non working ones v2.
 
-![why?](/static/images/ytho.jpg)
+![why?](/images/ytho.jpg)
 
 And this had to do with the Openshift version. I mentioned earlier that I installed v4.14. This new env was a fresh install, while all previous ones were upgraded from earlier versions to 4.14 at some time.
 
