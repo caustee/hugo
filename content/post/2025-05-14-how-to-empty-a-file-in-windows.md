@@ -4,14 +4,15 @@ title: "How to empty a file in Microsoft Windows without deleting it"
 ---
 ---
 
+As part of my freelancing business, I recently had to fix a space issue on a Windows machine. And the issue was caused by a very large text file.
 
-So today I had an interesting challange, because I had to fix a space issue on a Windows server. And the issue was caused by a very large text file.
+![wow that's a large text file](/images/devops-freelancer-44gb.jpg)
 
-![wow that's a large text file](/images/44gb.jpg)
+I know the Linux way of emptying a file, which is to redirect STDIN to the file.
 
-I know the Linux way of emptying a file which is to redirect STDIN to the file.
+But on Windows I had to find a way to do it. Of course I tried the easy way and I thought that AI would be able to provide a quick answer.
 
-But on Windows I had to look and find. Funny thing, I've asked Gemini 2.0 Flash and it was a complete failure. I've tested it locally and it managed to break my code. More about this below.
+Funny thing, I've asked Gemini 2.0 Flash and it was a complete failure. I've tested it locally, because I don't trust LLMs that much, and it managed to break my code. Truth be told, the code it provided to simulate a running app was ok. More about LLMs below.
 
 So, if you're looking for a fix, this is your solution: [Clear-Content module in PowerShell](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/clear-content?view=powershell-7.5). Yet another case when [Stackoverflow](https://superuser.com/a/1017856) was better than current AI models.
 
