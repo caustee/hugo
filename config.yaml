@@ -132,7 +132,7 @@ menu:
     # Grouped under "How can I help you?"
     - identifier: help
       name: How can I help you?
-      url: ""
+      url: /help/
       weight: 40
 
     - identifier: consultancy
