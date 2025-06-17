@@ -129,6 +129,36 @@ menu:
       url: /search/
       weight: 35
 
+    # Grouped under "How can I help you?"
+    - identifier: help
+      name: How can I help you?
+      url: ""
+      weight: 40
+
+    - identifier: consultancy
+      name: Consultancy
+      url: /help/consultancy/
+      parent: help
+      weight: 41
+
+    - identifier: project-implementation
+      name: Project Implementation
+      url: /help/project-implementation/
+      parent: help
+      weight: 42
+
+    - identifier: recruiting-screening
+      name: Recruiting Screening
+      url: /help/recruiting-screening/
+      parent: help
+      weight: 43
+
+    - identifier: automating-deployments
+      name: Automating Deployments
+      url: /help/automating-deployments/
+      parent: help
+      weight: 44
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
