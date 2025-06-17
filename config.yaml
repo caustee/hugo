@@ -153,9 +153,9 @@ menu:
       parent: help
       weight: 43
 
-    - identifier: automating-deployments
-      name: Automating Deployments
-      url: /help/automating-deployments/
+    - identifier: automated-deployments
+      name: Automated Deployments
+      url: /help/automated-deployments/
       parent: help
       weight: 44
 
