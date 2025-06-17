@@ -138,25 +138,21 @@ menu:
     - identifier: consultancy
       name: Consultancy
       url: /help/consultancy/
-      parent: help
       weight: 41
 
     - identifier: project-implementation
       name: Project Implementation
       url: /help/project-implementation/
-      parent: help
       weight: 42
 
     - identifier: recruiting-screening
       name: Recruiting Screening
       url: /help/recruiting-screening/
-      parent: help
       weight: 43
 
     - identifier: automated-deployments
       name: Automated Deployments
       url: /help/automated-deployments/
-      parent: help
       weight: 44
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
